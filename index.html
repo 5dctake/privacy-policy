@@ -1,122 +1,130 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<title>プライバシーポリシー / Privacy Policy</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-body{
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial;
-  line-height:1.7;
-  max-width:900px;
-  margin:auto;
-  padding:24px;
-}
-h1,h2,h3{ margin-top:32px; }
-hr{ margin:40px 0; }
-</style>
+    <meta charset="UTF-8">
+    <title>SHOT LAB - Official Site & Privacy Policy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        :root {
+            --bg-color: #0a0e12;
+            --container-bg: #1a1f24;
+            --accent-color: #00ffff; /* Cyan Accent */
+            --text-color: #e0e0e0;
+            --sub-text: #a0a0a0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            max-width: 800px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+        .container {
+            background-color: var(--container-bg);
+            padding: 30px;
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        h1 { color: var(--accent-color); font-size: 2.5rem; letter-spacing: 2px; text-align: center; margin-bottom: 10px; }
+        .tagline { text-align: center; color: var(--sub-text); margin-bottom: 40px; font-style: italic; }
+        h2 { border-left: 4px solid var(--accent-color); padding-left: 12px; margin-top: 40px; color: #fff; }
+        h3 { color: var(--accent-color); font-size: 1.1rem; margin-top: 25px; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        a { color: var(--accent-color); text-decoration: none; border-bottom: 1px solid transparent; transition: 0.3s; }
+        a:hover { border-bottom: 1px solid var(--accent-color); }
+        .contact-box { background: rgba(0, 255, 255, 0.05); border: 1px dashed var(--accent-color); padding: 20px; border-radius: 8px; margin: 20px 0; }
+        hr { border: 0; border-top: 1px solid rgba(255, 255, 255, 0.1); margin: 50px 0; }
+        .lang-switch { text-align: right; font-size: 0.9rem; margin-bottom: 20px; }
+        footer { text-align: center; color: var(--sub-text); font-size: 0.8rem; margin-top: 60px; }
+    </style>
 </head>
-
 <body>
 
-<h1>プライバシーポリシー</h1>
+<div class="container">
+    <h1>SHOT LAB</h1>
+    <p class="tagline">Analyze Your Shot. Engineer Your Victory.</p>
 
-<p>本アプリ（以下、「本アプリ」）は、ユーザーのプライバシーを尊重し、個人情報の保護に努めます。本ポリシーでは、本アプリにおける情報の取扱いについて説明します。</p>
+    <section id="marketing">
+        <h2>About the App / アプリについて</h2>
+        <p><strong>SHOT LAB</strong> is a professional-grade billiards training and analytics app designed to help you reach A-Class levels through data-driven practice.</p>
+        <p><strong>SHOT LAB</strong>は、データに基づいた練習を通じてAクラス到達を目指すプレイヤーのための、プロフェッショナルなビリヤード練習記録・分析アプリです。</p>
+        <ul>
+            <li><strong>Official Drills</strong>: Mastering the table with categorized routines.</li>
+            <li><strong>Survival Mode</strong>: Testing your consistency under pressure.</li>
+            <li><strong>Stats & Analytics</strong>: Visualizing your improvement.</li>
+        </ul>
+    </section>
 
-<h2>1. 取得される可能性のある情報</h2>
-<p>本アプリでは、以下の情報が取得される可能性があります。</p>
+    <section id="support">
+        <h2>Support & Contact / サポート</h2>
+        <div class="contact-box">
+            <p>For any inquiries, bug reports, or feedback, please contact us at:</p>
+            <p>アプリに関するご質問、不具合報告、フィードバックは以下の窓口までお問い合わせください。</p>
+            <p><strong>Email: <a href="mailto:5dc.take@gmail.com">5dc.take@gmail.com</a></strong></p>
+        </div>
+    </section>
 
-<h3>広告関連情報</h3>
-<ul>
-<li>広告ID</li>
-<li>IPアドレス</li>
-<li>端末情報（OS、端末モデル、言語設定等）</li>
-<li>アプリ利用情報（操作履歴、利用時間等）</li>
-</ul>
+    <hr>
 
-<p>これらの情報は、主に広告配信サービスによって自動的に取得される場合があります。</p>
+    <section id="privacy-jp">
+        <h1>プライバシーポリシー</h1>
+        <p>本アプリは、ユーザーのプライバシーを尊重し、個人情報の保護に努めます。本ポリシーでは、FirebaseおよびAdMobを含む本アプリにおける情報の取扱いについて説明します。</p>
 
-<h2>2. 利用目的</h2>
-<ul>
-<li>広告の配信</li>
-<li>広告効果測定</li>
-<li>不正防止</li>
-<li>サービス改善</li>
-<li>利用状況分析</li>
-</ul>
+        <h2>1. 取得される情報と利用目的</h2>
+        <h3>ユーザー認証とデータ同期</h3>
+        <p>本アプリでは、ユーザーアカウントの管理およびデバイス間でのデータ同期のために <strong>Firebase Authentication</strong> を利用しています。Googleアカウント、Apple ID、または匿名認証を通じて取得される識別子を利用しますが、これらは認証および本人確認の目的のみに使用されます。</p>
 
-<h2>3. 第三者への提供</h2>
-<p>本アプリでは、広告配信のため、第三者の広告配信事業者が情報を取得・利用する場合があります。</p>
+        <h3>練習データの保存</h3>
+        <p>ドリルクリア状況や統計情報は <strong>Cloud Firestore</strong> に保存されます。これはユーザーが自身の練習成果を管理し、分析するために利用されます。</p>
 
-<h2>4. 情報の安全管理</h2>
-<p>不正アクセス、紛失、漏洩等を防止するため、合理的な安全対策を実施します。</p>
+        <h3>広告配信と分析</h3>
+        <p>本アプリでは <strong>Google AdMob</strong> を利用して広告を表示しています。広告配信、効果測定、不正防止のために、広告ID、IPアドレス、端末情報などが自動的に取得される場合があります。</p>
 
-<h2>5. ユーザーの選択</h2>
-<ul>
-<li>広告IDのリセット（端末設定）</li>
-<li>パーソナライズ広告の無効化</li>
-</ul>
+        <h2>2. データの保持と削除</h2>
+        <p>収集されたデータは、アカウントが有効な間保持されます。ユーザーはアプリ内の「アカウント削除」機能を利用するか、上記のサポートメールに連絡することで、いつでもアカウントおよび関連するすべてのデータの削除をリクエストできます。</p>
 
-<h2>6. 未成年の利用について</h2>
-<p>本アプリは13歳未満のユーザーを主対象としていません。</p>
+        <h2>3. 第三者サービスのポリシー</h2>
+        <ul>
+            <li><a href="https://policies.google.com/privacy" target="_blank">Google / Firebase プライバシーポリシー</a></li>
+            <li><a href="https://support.google.com/admob/answer/6128543" target="_blank">AdMob プライバシーポリシー</a></li>
+        </ul>
+    </section>
 
-<h2>7. ポリシーの変更</h2>
-<p>本ポリシーは必要に応じて更新される場合があります。</p>
+    <hr>
 
-<h2>8. お問い合わせ</h2>
-<p>メール：5dc.take@gmail.com</p>
+    <section id="privacy-en">
+        <h1>Privacy Policy</h1>
+        <p>This App respects user privacy and is committed to protecting personal information. This policy explains how information is handled, including the use of Firebase and AdMob.</p>
 
-<p>最終更新日：2026年2月14日</p>
+        <h2>1. Information Collection and Use</h2>
+        <h3>Authentication & Sync</h3>
+        <p>We use <strong>Firebase Authentication</strong> (Google, Apple ID, Anonymous) to manage user accounts and synchronize data across devices. These identifiers are used solely for authentication and identity verification.</p>
 
-<hr>
+        <h3>Data Storage</h3>
+        <p>Practice progress and statistics are stored in <strong>Cloud Firestore</strong>. This data is used for users to manage and analyze their own performance.</p>
 
-<h1>Privacy Policy</h1>
+        <h3>Advertisements & Analytics</h3>
+        <p>We use <strong>Google AdMob</strong> to display advertisements. To deliver ads and measure performance, AdMob may automatically collect information such as Advertising IDs, IP addresses, and device information.</p>
 
-<p>This application ("the App") respects user privacy and is committed to protecting personal information. This Privacy Policy explains how information is handled in the App.</p>
+        <h2>2. Data Retention and Deletion</h2>
+        <p>Data is retained as long as your account is active. You can request the deletion of your account and all associated data at any time via the in-app "Delete Account" feature or by contacting our support email.</p>
 
-<h2>1. Information That May Be Collected</h2>
+        <h2>3. Third-Party Links</h2>
+        <ul>
+            <li><a href="https://policies.google.com/privacy" target="_blank">Google / Firebase Privacy Policy</a></li>
+            <li><a href="https://support.google.com/admob/answer/6128543" target="_blank">AdMob Privacy Policy</a></li>
+        </ul>
+    </section>
 
-<h3>Advertising Related Information</h3>
-<ul>
-<li>Advertising ID</li>
-<li>IP address</li>
-<li>Device information (OS, device model, language settings, etc.)</li>
-<li>App usage data (interaction data, usage time, etc.)</li>
-</ul>
-
-<p>This information may be automatically collected by advertising service providers.</p>
-
-<h2>2. Purpose of Use</h2>
-<ul>
-<li>Ad delivery</li>
-<li>Ad performance measurement</li>
-<li>Fraud prevention</li>
-<li>Service improvement</li>
-<li>Usage analytics</li>
-</ul>
-
-<h2>3. Third-Party Sharing</h2>
-<p>The App may allow third-party advertising partners to collect and use data for advertising purposes.</p>
-
-<h2>4. Data Security</h2>
-<p>Reasonable security measures are taken to prevent unauthorized access, loss, or leakage.</p>
-
-<h2>5. User Choices</h2>
-<ul>
-<li>Reset advertising ID via device settings</li>
-<li>Disable personalized advertising</li>
-</ul>
-
-<h2>6. Children's Privacy</h2>
-<p>The App is not directed to children under 13 years old.</p>
-
-<h2>7. Changes to This Policy</h2>
-<p>This policy may be updated as necessary.</p>
-
-<h2>8. Contact</h2>
-<p>Email:5dc.take@gmail.com</p>
-
-<p>Last Updated: February 14, 2026</p>
+    <footer>
+        <p>Last Updated: February 15, 2026</p>
+        <p>&copy; 2026 SHOT LAB / 5dc.take</p>
+    </footer>
+</div>
 
 </body>
 </html>
